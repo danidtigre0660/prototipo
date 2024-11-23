@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "node --watch index.js",
+    "build": "vite build",
     "dev:postman": "node --watch index.js --postman",
     "seed:import": "node data/seed.js --import",
     "seed:destroy": "node data/seed.js --destroy"
